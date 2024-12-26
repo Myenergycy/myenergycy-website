@@ -3,117 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyEnergyCy - Energy Management & Monitoring</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f9f9f9;
-            color: #333;
-        }
-        header {
-            background-color: #1e88e5;
-            color: white;
-            padding: 2rem 1rem;
-            text-align: center;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 2.5rem;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            background-color: #1565c0;
-            padding: 1rem 0;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 1.5rem;
-            font-size: 1rem;
-            font-weight: bold;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-        .hero {
-            text-align: center;
-            padding: 4rem 2rem;
-            background: url('hero-image.jpg') no-repeat center center/cover;
-            color: white;
-        }
-        .hero h1 {
-            font-size: 3rem;
-            margin: 0;
-        }
-        .hero p {
-            font-size: 1.5rem;
-            margin: 1rem 0;
-        }
-        .section {
-            padding: 4rem 2rem;
-            text-align: center;
-        }
-        .section h2 {
-            font-size: 2rem;
-            margin-bottom: 1rem;
-        }
-        .section p {
-            font-size: 1.2rem;
-            line-height: 1.6;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 1.5rem 1rem;
-            margin-top: 2rem;
-        }
-        footer p {
-            margin: 0;
-        }
-    </style>
+    <title>MyEnergyCY - Renewable Energy Solutions</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header>
+        <div class="container">
+            <h1>MyEnergyCY</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-<header>
-    <h1>MyEnergyCy</h1>
-    <p>Monitoring Systems</p>
-</header>
+    <section id="hero">
+        <div class="hero-text">
+            <h2>Leading Photovoltaic Solutions in Cyprus</h2>
+            <p>Empowering sustainable energy for a better future.</p>
+            <a href="#contact" class="btn">Get in Touch</a>
+        </div>
+    </section>
 
-<nav>
-    <a href="#about">About</a>
-    <a href="#features">Features</a>
-    <a href="#contact">Contact</a>
-</nav>
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>At MyEnergyCY, we specialize in providing state-of-the-art photovoltaic solutions for residential, commercial, and industrial needs. Our mission is to deliver sustainable energy solutions that contribute to a greener planet.</p>
+        </div>
+    </section>
 
-<div class="hero">
-    <h1>Welcome to MyEnergyCy</h1>
-    <p>Revolutionizing the way you dine, one meal at a time.</p>
-</div>
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Photovoltaic Installation</li>
+                <li>Energy Management Solutions</li>
+                <li>Maintenance and Support</li>
+                <li>Custom Solar Projects</li>
+            </ul>
+        </div>
+    </section>
 
-<section id="about" class="section">
-    <h2>About Us</h2>
-    <p>MyEnergyCy is your trusted partner in Monitoring solutions for RES assets.</p>
-</section>
+    <section id="projects">
+        <div class="container">
+            <h2>Our Projects</h2>
+            <div class="projects-grid">
+                <div class="project">
+                    <img src="images/solar_park_1.jpg" alt="Solar Park 1">
+                    <h3>Solar Park Alpha</h3>
+                </div>
+                <div class="project">
+                    <img src="images/solar_park_2.jpg" alt="Solar Park 2">
+                    <h3>Solar Park Beta</h3>
+                </div>
+                <div class="project">
+                    <img src="images/solar_park_3.jpg" alt="Solar Park 3">
+                    <h3>Solar Park Gamma</h3>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<section id="features" class="section">
-    <h2>Our Features</h2>
-    <p>Software platform and hardware products that enable monitoring, control, and optimisation of your assets.</p>
-</section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Reach out to us for more information about our services.</p>
+            <ul>
+                <li>Phone: +357 99 123 456</li>
+                <li>Email: info@myenergycy.com</li>
+                <li>Address: 123 Solar Avenue, Nicosia, Cyprus</li>
+            </ul>
+            <form action="/submit-form" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
 
-<section id="contact" class="section">
-    <h2>Contact Us</h2>
-    <p>Email: info@myenergycy.com</p>
-    <p>Phone: +123 456 789</p>
-    <p>Address: 123 Foodie Street, Cyprus</p>
-</section>
-
-<footer>
-    <p>&copy; 2024 myenergycy. All rights reserved.</p>
-</footer>
-
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 MyEnergyCY. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
