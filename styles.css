@@ -1,69 +1,64 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #FFF9E3;
-    color: #0044AA;
-}
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: #E3F2FF;
-    color: #0044AA;
-}
-header .logo {
-    font-size: 24px;
-    font-weight: bold;
-}
-header nav {
-    display: flex;
-    gap: 20px;
-}
-header nav a {
-    color: #0044AA;
-    text-decoration: none;
-    font-size: 16px;
-}
-header .language {
-    display: flex;
-    gap: 10px;
-}
-header .language button {
-    background: none;
-    border: 1px solid #0044AA;
-    color: #0044AA;
-    padding: 5px 10px;
-    cursor: pointer;
-}
-header .language button:hover {
-    background-color: #0044AA;
-    color: #FFF9E3;
-}
-main {
-    padding: 20px;
-    text-align: center;
-}
-.hero {
-    background-image: url('images/1.jpg');
-    background-size: cover;
-    background-position: center;
-    padding: 50px;
-    color: #0044AA;
-}
-.hero h1 {
-    font-size: 48px;
-}
-.hero p {
-    font-size: 20px;
-}
-section {
-    margin: 40px 0;
-}
-footer {
-    background-color: #E3F2FF;
-    color: #0044AA;
-    padding: 20px;
-    text-align: center;
-}
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FFF9E3;
+            color: #0044AA;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #E3F2FF;
+            color: #0044AA;
+        }
+        header .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        header nav {
+            display: flex;
+            gap: 20px;
+        }
+        header nav a {
+            color: #0044AA;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        header .language {
+            display: flex;
+            gap: 10px;
+        }
+        header .language button {
+            background: none;
+            border: 1px solid #0044AA;
+            color: #0044AA;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+        header .language button:hover {
+            background-color: #0044AA;
+            color: #FFF9E3;
+        }
+        section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        section img {
+            width: 40%;
+            height: auto;
+            margin-right: 20px;
+        }
+        section:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+        footer {
+            background-color: #E3F2FF;
+            color: #0044AA;
+            padding: 20px;
+            text-align: center;
+        }
