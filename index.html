@@ -58,6 +58,72 @@
             document.getElementById('contact-description').textContent = translations[lang].contactDescription;
         }
     </script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FFF9E3;
+            color: #0044AA;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #E3F2FF;
+            color: #0044AA;
+        }
+        header .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        header nav {
+            display: flex;
+            gap: 20px;
+        }
+        header nav a {
+            color: #0044AA;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        header .language {
+            display: flex;
+            gap: 10px;
+        }
+        header .language button {
+            background: none;
+            border: 1px solid #0044AA;
+            color: #0044AA;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+        header .language button:hover {
+            background-color: #0044AA;
+            color: #FFF9E3;
+        }
+        section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        section img {
+            width: 40%;
+            height: auto;
+            margin-right: 20px;
+        }
+        section:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+        footer {
+            background-color: #E3F2FF;
+            color: #0044AA;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -75,42 +141,13 @@
         </div>
     </header>
     <main>
-        <div class="hero">
-            <h1 id="hero-title">Residential and Commercial PV Panel Installation</h1>
-            <p id="hero-description">Save energy and embrace sustainability with our expert solar panel solutions.</p>
-            <img src="images/1.jpg" alt="Solar panels on a roof">
-        </div>
         <section id="services">
+            <img src="images/2.jpg" alt="Technicians installing solar panels">
             <div>
                 <h2 id="services-title">Our Services</h2>
-                <p id="services-description">We offer top-notch installation, maintenance, and consultation services for solar panel systems. Our skilled technicians use cutting-edge technology to ensure optimal performance of your solar systems. From site assessment and design to full-scale installations, we cater to both residential and commercial projects with a focus on efficiency and quality. We also provide periodic maintenance to keep your systems running smoothly and consultations to help you maximize energy savings.</p>
+                <p id="services-description">We offer top-notch installation, maintenance, and consultation services for solar panel systems. Our skilled technicians use cutting-edge technology to ensure optimal performance of your solar systems. From site assessment and design to full-scale installations</p>
             </div>
-            <img src="images/2.jpg" alt="Technicians installing solar panels">
-        </section>
-        <section id="about">
-            <img src="images/3.jpg" alt="Team of solar energy experts">
-            <div>
-                <h2 id="about-title">About Us</h2>
-                <p id="about-description">With years of experience, our company is dedicated to providing high-quality and reliable solar energy solutions for homes and businesses. Our mission is to make renewable energy accessible and affordable for everyone. We take pride in our commitment to customer satisfaction and sustainability. Our team of experts works closely with clients to understand their energy needs and deliver tailor-made solutions. By staying updated with the latest advancements in solar technology, we ensure our clients receive the best value for their investment.</p>
-            </div>
-        </section>
-        <section id="projects">
-            <div>
-                <h2 id="projects-title">Our Projects</h2>
-                <p id="projects-description">We have successfully completed numerous projects across Cyprus, ranging from small residential installations to large commercial solar farms. Each project is a testament to our expertise and dedication. Whether it’s installing panels on a single-family home or designing a solar energy solution for a corporate building, we approach every project with the same level of care and professionalism. Explore our portfolio to see how we are transforming energy usage for our clients.</p>
-            </div>
-            <img src="images/5.jpg" alt="Completed solar panel project">
-        </section>
-        <section id="contact">
-            <div>
-                <h2 id="contact-title">Contact Us</h2>
-                <p id="contact-description">Email: info@myenergycy.com | Phone: +357 123 4567</p>
-            </div>
-            <img src="images/4.jpg" alt="Customer support">
         </section>
     </main>
-    <footer>
-        <p>&copy; 2025 PV Panel Solutions. All rights reserved.</p>
-    </footer>
 </body>
 </html>
