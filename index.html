@@ -67,7 +67,19 @@
             font-size: 20px;
         }
         section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
             margin: 40px 0;
+            padding: 20px;
+        }
+        section img {
+            width: 40%;
+            height: auto;
+            margin: 0 20px;
+        }
+        section:nth-child(even) {
+            flex-direction: row-reverse;
         }
         footer {
             background-color: #E3F2FF;
@@ -95,22 +107,28 @@
         <div class="hero">
             <h1>Residential and Commercial PV Panel Installation</h1>
             <p>Save energy and embrace sustainability with our expert solar panel solutions.</p>
-            <img src="images/1.jpg" alt="Solar panels on a roof" style="width: 50%; height: auto; margin: 0 auto;">
+            <img src="images/1.jpg" alt="Solar panels on a roof">
         </div>
         <section id="services">
-            <h2>Our Services</h2>
-            <p>We offer top-notch installation, maintenance, and consultation services for solar panel systems.</p>
-            <img src="images/2.jpg" alt="Technicians installing solar panels" style="width: 5%; height: auto;">
+            <div>
+                <h2>Our Services</h2>
+                <p>We offer top-notch installation, maintenance, and consultation services for solar panel systems.</p>
+            </div>
+            <img src="images/2.jpg" alt="Technicians installing solar panels">
         </section>
         <section id="about">
-            <h2>About Us</h2>
-            <p>With years of experience, our company is dedicated to providing high-quality and reliable solar energy solutions for homes and businesses.</p>
-            <img src="images/3.jpg" alt="Team of solar energy experts" style="width: 5%; height: auto;">
+            <img src="images/3.jpg" alt="Team of solar energy experts">
+            <div>
+                <h2>About Us</h2>
+                <p>With years of experience, our company is dedicated to providing high-quality and reliable solar energy solutions for homes and businesses.</p>
+            </div>
         </section>
         <section id="contact">
-            <h2>Contact Us</h2>
-            <p>Email: info@myenergycy.com | Phone: +357 123 4567</p>
-           <!-- <img src="images/4.jpg" alt="Customer support" style="width: 100%; height: auto;"> -->
+            <div>
+                <h2>Contact Us</h2>
+                <p>Email: info@myenergycy.com | Phone: +357 123 4567</p>
+            </div>
+            <img src="images/4.jpg" alt="Customer support">
         </section>
     </main>
     <footer>
