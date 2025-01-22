@@ -1,64 +1,101 @@
 body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #FFF9E3;
-            color: #0044AA;
-        }
-        header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 10px 20px;
-            background-color: #E3F2FF;
-            color: #0044AA;
-        }
-        header .logo {
-            font-size: 24px;
-            font-weight: bold;
-        }
-        header nav {
-            display: flex;
-            gap: 20px;
-        }
-        header nav a {
-            color: #0044AA;
-            text-decoration: none;
-            font-size: 16px;
-        }
-        header .language {
-            display: flex;
-            gap: 10px;
-        }
-        header .language button {
-            background: none;
-            border: 1px solid #0044AA;
-            color: #0044AA;
-            padding: 5px 10px;
-            cursor: pointer;
-        }
-        header .language button:hover {
-            background-color: #0044AA;
-            color: #FFF9E3;
-        }
-        section {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 20px;
-            margin: 20px 0;
-        }
-        section img {
-            width: 40%;
-            height: auto;
-            margin-right: 20px;
-        }
-        section:nth-child(even) {
-            flex-direction: row-reverse;
-        }
-        footer {
-            background-color: #E3F2FF;
-            color: #0044AA;
-            padding: 20px;
-            text-align: center;
-        }
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background: #0078d7;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 0;
+    background: #f4f4f4;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+section {
+    padding: 30px 0;
+}
+
+.about, .services, .contact {
+    background: #f9f9f9;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    display: inline-block;
+    background: #0078d7;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #0056a3;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #333;
+    color: #fff;
+}
