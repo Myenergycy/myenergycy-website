@@ -17,28 +17,51 @@ header {
     background: #0078d7;
     color: #fff;
     padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header h1 {
     margin: 0;
-    text-align: center;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
-    text-align: center;
+    margin: 0;
+    display: flex;
+    gap: 20px;
 }
 
 nav ul li {
     display: inline;
-    margin: 0 15px;
 }
 
 nav ul li a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
+}
+
+.language-switcher {
+    display: flex;
+    gap: 10px;
+}
+
+.language-switcher button {
+    background: #0056a3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.language-switcher button:hover {
+    background: #003f7d;
 }
 
 .hero {
@@ -57,12 +80,17 @@ section {
     padding: 30px 0;
 }
 
-.about, .services, .contact {
+.features, .applications, .contact {
     background: #f9f9f9;
     margin: 20px 0;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.features ul, .applications ul {
+    list-style: disc;
+    margin-left: 20px;
 }
 
 form label {
