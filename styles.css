@@ -7,7 +7,7 @@ body {
 }
 
 img[src="images/Photo2.jpg"] {
-    width: 600px; /* Adjust width as needed */
+    width: 900px; /* Adjust width as needed */
     height: auto; /* Maintain aspect ratio */
     display: block; /* Ensure proper spacing */
     margin: 20px auto; /* Center the image */
