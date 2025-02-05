@@ -6,6 +6,15 @@ body {
     line-height: 1.6;
 }
 
+images/My Product.jpeg
+img[src="images/My Product.jpeg"] {
+    width: 900px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure proper spacing */
+    margin: 20px auto; /* Center the image */
+    border-radius: 5px; /* Optional: Adds slight rounding for aesthetics */
+}
+
 img[src="images/Photo2.jpg"] {
     width: 900px; /* Adjust width as needed */
     height: auto; /* Maintain aspect ratio */
