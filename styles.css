@@ -6,6 +6,14 @@ body {
     line-height: 1.6;
 }
 
+img[src="Photo2.jpg"] {
+    width: 300px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure proper spacing */
+    margin: 20px auto; /* Center the image */
+    border-radius: 5px; /* Optional: Adds slight rounding for aesthetics */
+}
+
 .container {
     width: 90%;
     max-width: 1200px;
